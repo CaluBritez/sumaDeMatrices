@@ -1,0 +1,41 @@
+#cajaDatos{
+    height: auto;
+    background-color: #A8CCED;
+    padding: 5px;
+}
+#cajaDatos input{
+    width: 250px;
+    margin-left: 5px;
+}
+#cajaFilas{
+    margin: 4px;
+    font-size: 20px;
+}
+#cajaColumnas{
+    margin: 4px;
+    font-size: 20px;
+}
+#cajaMatrices{
+    height: auto;
+    background-color: #A8CCED;
+    margin-top: 5px;
+}
+#inputNumber{
+    width: 40px;
+    margin: 2px;
+}
+#cajaMatriz1{
+    background-color: green;
+    height: auto;
+    width: 300px;
+    margin: 5px;
+}
+#cajaMatriz2{
+    background-color: yellow;
+    height: auto;
+    width: 300px;
+    margin: 5px;
+}   
+.titulos{
+    background-color: red;
+}

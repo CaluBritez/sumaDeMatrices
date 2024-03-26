@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Actividad Matrices</title>
+</head>
+<body>
+    <form id="matricesForm">
+        <div id="cajaDatos">
+            <div id="cajaFilas">
+                <label id="">Filas</label>
+                <input type="number" id="cantFilas" placeholder="Ingrese cantidad de filas">
+            </div>
+            <div id="cajaColumnas">
+                <label>Columnas</label>
+                <input type="number" id="cantColumnas" placeholder="Ingrese cantidad de columnas">
+            </div>
+            <button type="button" onclick="crearMatriz()">Crear Matrices</button>
+        </div>
+        <div id="cajaMatrices">
+            <div id="cajaMatriz1" class="cajaMatriz"></div>
+            <div id="cajaMatriz2" class="cajaMatriz"></div>
+            <div id="botonSumar"></div>
+        </div>
+    </form>
+    <div id="cajaResultado"></div>
+
+    <script src="frontend.js"></script>
+</body>
+</html>
